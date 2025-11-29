@@ -1,0 +1,28 @@
+<Solution>
+  <Folder Name="/src/" />
+  <Folder Name="/src/Core/">
+    <File Path="docs/core.md" />
+    <Project Path="src/ThermoBus.Application/ThermoBus.Application.csproj" Id="a4e2dec2-abc7-4554-a2bd-ecb08a6cb74f" />
+    <Project Path="src/ThermoBus.Contracts/ThermoBus.Contracts.csproj" Id="55c6e939-fb68-47d7-9c0f-d9cacb1b242f" />
+    <Project Path="src/ThermoBus.Domain/ThermoBus.Domain.csproj" Id="96287e2d-b850-43fe-b82c-55bc9bd090e6" />
+    <Project Path="src/ThermoBus.Infrastructure/ThermoBus.Infrastructure.csproj" Id="92ad3d06-7f79-492d-a138-9889c2e96354" />
+  </Folder>
+  <Folder Name="/src/Messaging/">
+    <File Path="docs/messaging.md" />
+    <Project Path="src/ThermoBus.Messaging.Abstractions/ThermoBus.Messaging.Abstractions.csproj" Id="ff7a04a6-1161-452e-a7a8-800051c992ef" />
+    <Project Path="src/ThermoBus.Messaging.InMemory/ThermoBus.Messaging.InMemory.csproj" Id="2b46bd77-2695-4bd8-b71a-9c991c6a19dd" />
+  </Folder>
+  <Folder Name="/src/Services/">
+    <File Path="docs/services.md" />
+    <Project Path="src/ThermoBus.Api/ThermoBus.Api.csproj" Id="450e0548-18ea-483d-95bd-ed1093133752" />
+    <Project Path="src/ThermoBus.Gateway/ThermoBus.Gateway.csproj" Id="299524fc-fd03-4ab1-8cfe-641edb4405c5" />
+    <Project Path="src/ThermoBus.Workers.Ingestion/ThermoBus.Workers.Ingestion.csproj" Id="fcde0862-6acf-4d27-904d-8c01f6ce3c19" />
+  </Folder>
+  <Folder Name="/src/Tools/">
+    <File Path="docs/tools.md" />
+    <Project Path="src/ThermoBus.Simulator/ThermoBus.Simulator.csproj" Id="a9c0f919-78eb-4425-a41e-7dd4dec6c8d1" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/ThermoBus.Tests/ThermoBus.Tests.csproj" Id="a3d86ed1-b46c-43d5-887a-9239beca6942" />
+  </Folder>
+</Solution>
